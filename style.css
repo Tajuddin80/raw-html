@@ -1,0 +1,47 @@
+#first-section {
+  background: #f9f9f9;
+  height: 90vh;
+  /* margin: ; */
+}
+
+#buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.styled-button {
+  color: #323b47;
+  border-color: #323b47;
+  padding: 12px 20px;
+  background: transparent;
+}
+
+
+#hero-section{
+margin-top: 150px;
+display: flex;
+width: 90vw;
+}
+.hero-btn-style {
+  background: #ff3374;
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: medium;
+}
+
+.hero-large-text {
+  font-style: semi-bold;
+  font-size: 32px;
+}
+
+.first-image-text{
+    font-size: 24px;
+
+    font-weight: 400;
+}
+
