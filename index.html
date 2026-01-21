@@ -11,47 +11,65 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- <header>This is header</header> -->
-    <main>
-      <section id="first-section w-100">
-        <div class="w-90 mx-auto">
-          <div class="mx-auto d-flex flex-column text-center">
-            <p class="header-small-text">fashion in town</p>
-            <p class="header-large-text">Chill colors, cozy knitwear.</p>
+    <section class="first-section">
+      <!-- Header Section -->
+      <div class="header-section">
+        <div class="brand-name poppins">Fashion In Town</div>
+        <h1 class="poppins">Chill Colors, Cozy Knitwear.</h1>
 
-            <!-- dynamic buttons here -->
-            <div id="buttonContainer" class="text-center"></div>
-          </div>
-          <div id="hero-section" class="">
-            <div class="first-image">
-              <img
-                class="position-relative"
-                height="538px"
-                src="./assets/first-image.jpg"
-                alt=""
-              />
-              <div class="position-absolute">
-                <p class="first-image-text">New Arrivals</p>
-                <p class="">Cool Styles for Any Vibe</p>
+        <!-- Navigation Tabs -->
+        <div id="nav-tabs-container"></div>
+      </div>
+      <div class="w-100">
+
+        <!-- Main Fashion Content -->
+        <div class="w-90 mx-auto">
+          <div class="w-100 bg-success d-flex">
+
+            <!-- Left Side Two Images -->
+            <div class="w-60">
+              <div class="images-container w-100">
+
+                <!-- First Image with Overlay -->
+                <div class="first-image-box w-60">
+                  <img src="./assets/first-image.jpg" />
+                  <div class="left-image-overlay">
+                    <div class="small-text inter">New Arrivals</div>
+                    <h2>Cool Styles for Any Vibe</h2>
+                    <button class="btn-shop inter">SHOP NOW</button>
+                  </div>
+                </div>
+
+                <!-- Second Image -->
+                <div class="second-image-box w-40">
+                  <img src="./assets/second-image.png" />
+                </div>
               </div>
             </div>
-            <div class="second-image">
-              <img height="364px" src="./assets/second-image.png" alt="" />
-            </div>
-            <div class="text-container">
-              <p class="hero-bold-large-text">
-                ‘This season has some amazing pieces you can wear for any
-                occasion.
-              </p>
-              <p class="hero-normal-large-text">Made to last a lifetime!’</p>
-              <button class="hero-btn-style">DISCOVER COLLECTION</button>
+
+            <!-- Right Side Text Content -->
+            <div class="w-40">
+              <div class="right-content">
+                <div class="text-content">
+                  <p class="poppins">
+                    <strong
+                      >'This season has some amazing pieces you can wear for any
+                      occasion.</strong
+                    >
+                  </p>
+                  <p class="italic-text poppins">Made to last a lifetime!'</p>
+                  <button class="btn-discover inter">
+                    Discover Collection
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-    </main>
-    <footer>this is footer</footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+      </div>
+    </section>
+
     <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
